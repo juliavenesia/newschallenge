@@ -1,11 +1,8 @@
-
-Signos de LLAVES { }
 header{
     height: 96px;
 }
 .header{
     display: flex;
-    width: 100%;
     align-items: center;
     padding: 0px 205px 0px;
     font: inherit;
@@ -47,8 +44,36 @@ header{
 
 .container {
     margin: 0 20.40px;
-    text-align: center;    
- }
+    text-align: center;
+}
+
+.container figcaption{
+    margin: 0px 340px;
+    background-color: lightgray;
+    font-size: 12px;
+}
+
+.main-text{
+    margin: 0px 350px 0px;
+}
+
+.main-text p{
+    font-size: 18px;
+}
+
+.divider{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(37, 38, 39, 0.15);
+}
+
+.main-extra p{
+    font-size: 14px;
+}
+
+.main-extra p a{
+    text-decoration: none;
+    color:lightseagreen;
+}
 
 .options {
     font-size: .75rem;
@@ -56,15 +81,38 @@ header{
     padding: 7px 0;
     width: 940px;
     height: 38px;
- }
- .container h1 {
+}
+.container h1 {
     color: #000;
     font-size: 2rem;
     margin-bottom: .625rem;
-    line-height: 1.3125;  
- }
- .container author { 
-     width: 161.925px;
-     height: 40px;
- }
-
+    line-height: 1.3125;
+}
+.container author {
+    width: 161.925px;
+    height: 40px;
+}
+.social-media{
+    padding: 10px 0px;
+    background-color: #EFEFF8;
+    text-align: center;
+}
+.social-media ul li{
+    display: inline-block;
+    margin-right: 80px;
+}
+.end{
+    text-align: center;
+}
+.relevant-links div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.relevant-links div div h3{
+    font-size: 16px;
+}
+.relevant-links ul li a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
